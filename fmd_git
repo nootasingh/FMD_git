@@ -1,0 +1,17 @@
+spring.sleuth.sampler.percentage=1.0
+eik.timeout.connect=62000
+spring.cloud.vault.config.order=-10
+spring.cloud.vault.connection-timeout=5000
+spring.cloud.vault.read-timeout=15000
+spring.http.multipart.max-file-size=10MB
+TIMEOUT=5000
+permitsPerSecond=1000
+zuul.host.socket-timeout-millis=63000
+no.difa.eik.apigatewayservice.filter.ThrottlingZuulFilter.prefilter.shouldfilter=true
+no.difa.eik.apigatewayservice.filter.ThrottlingZuulFilter.prefilter.filterorder=1
+no.difa.eik.apigatewayservice.filter.RoutingFilter.prefilter.shouldfilter=true
+no.difa.eik.apigatewayservice.filter.RoutingFilter.prefilter.filterorder=1
+no.difa.eik.apigatewayservice.filter.MutualTLSFilter.prefilter.shouldfilter=true
+no.difa.eik.apigatewayservice.filter.MutualTLSFilter.prefilter.filterorder=1
+spring.cloud.vault.token=4be32e4b-351c-045b-d42e-aad92d21b37b
+eik.microservice.NMVS.TAN.ExpiryDays=720
