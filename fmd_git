@@ -15,3 +15,4 @@ no.difa.eik.apigatewayservice.filter.MutualTLSFilter.prefilter.shouldfilter=true
 no.difa.eik.apigatewayservice.filter.MutualTLSFilter.prefilter.filterorder=1
 spring.cloud.vault.token=4be32e4b-351c-045b-d42e-aad92d21b37b
 eik.microservice.NMVS.TAN.ExpiryDays=720
+
